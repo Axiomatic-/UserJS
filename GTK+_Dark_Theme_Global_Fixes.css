@@ -1,0 +1,25 @@
+@-moz-document url-prefix(http://), url-prefix(https://), url-prefix(ftp://), url-prefix(file://), url(about:home){
+
+input {
+  -moz-appearance: none !important;
+  background-color: white; 
+  color: black;
+}
+
+textarea {
+  -moz-appearance: none !important;
+  background-color: white;
+  color: black;
+}
+
+select {
+  -moz-appearance: none !important;
+  background-color: white;
+  color: black;
+}
+}
+
+/*
+ * Source: https://userstyles.org/styles/111694/gtk-dark-theme-global-fixes
+ * Note: I /think/ this is a ugly workaround, so please inform the web developers of the site you use if dark GTK themes have unreadable input text.
+ */
